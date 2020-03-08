@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from './views/Home'
+import About from './views/About'
+
 
 function App() {
   return (
@@ -21,15 +24,15 @@ function App() {
             <Header />
           </div>
 
-          <div className="px-3 pb-16">
+          <div>
             
               <Switch>
                 <Route exact path="/">
-                  <h1>Home</h1>
+                  <Home />
                 </Route>
 
                 <Route path="/about">
-                  <h1>This is the about</h1>
+                  <About />
                 </Route>
               </Switch>
             

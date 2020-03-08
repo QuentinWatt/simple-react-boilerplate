@@ -7,7 +7,7 @@ class Header extends React.Component{
         return (
             <nav>
                 <div className="text-2xl font-bold border-b pb-3">
-                    Quentin Watt
+                    React Boilerplate
                 </div>
                 <ul>
                     {
