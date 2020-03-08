@@ -1,6 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the simple React boilerplate 
 
-## Available Scripts
+This is a simple boilerplate to get started learning and using React. The project was originally set up with [Create React App](https://github.com/facebook/create-react-app), but I've included a few more features that you'll need for a simple app. 
+
+## Instructions
+
+1. To get started, simply clone this project. 
+`git clone git@github.com:QuentinWatt/simple-react-boilerplate.git my-react-app`
+
+2. Then cd into the project directory and install the dependencies with Yarn or NPM.
+`cd my-react-app` 
+`yarn` or `npm install`
+
+
+## Scripts
 
 In the project directory, you can run:
 
